@@ -50,7 +50,7 @@ function addPagination(list) {
     // set the innerHTML property of the variable you just created to an empty string
    linkList.innerHTML = ''
 
-
+   //Work in Progress
 }
 
 addPagination(data)
