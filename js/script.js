@@ -44,22 +44,26 @@ showPage(data, 1)
 
 function addPagination(list) {
    // create a variable to calculate the number of pages needed
-   const numOfPages = Math.ceil(list.length/itemsPerPage)
+   const numOfPages = Math.ceil(list.length / itemsPerPage)
    // select the element with a class of `link-list` and assign it to a variable
    const linkList = document.querySelector('.link-list')
     // set the innerHTML property of the variable you just created to an empty string
    linkList.innerHTML = ''
 
    // loop over the number of pages needed
-   for (let i = 1; i <= numOfPages.length; i++) {
+   for (let i = 1; i <= numOfPages; i++) {
       // create the elements needed to display the pagination button
       const li = document.createElement('li')
+      // insert the above elements
       linkList.appendChild(li)
       li.innerHTML = `
          <li>
             <button type="button">${[i]}</button>
          </li>
       `
+      // give the first pagination button a class of "active"
+      const firstButton = document.querySelector('button')
+      firstButton.className = 'active'
    }
 }
 
