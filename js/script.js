@@ -50,7 +50,17 @@ function addPagination(list) {
     // set the innerHTML property of the variable you just created to an empty string
    linkList.innerHTML = ''
 
-   //Work in Progress
+   // loop over the number of pages needed
+   for (let i = 1; i <= numOfPages.length; i++) {
+      // create the elements needed to display the pagination button
+      const li = document.createElement('li')
+      linkList.appendChild(li)
+      li.innerHTML = `
+         <li>
+            <button type="button">${[i]}</button>
+         </li>
+      `
+   }
 }
 
 addPagination(data)
