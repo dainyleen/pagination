@@ -1,9 +1,10 @@
 // Create the 'showPage' function
 // This function will create and insert/append the elements needed to display a "page" of nine students
 
+const itemsPerPage = 9
+
 function showPage(list, page) {
    // create two variables which will represent the index for the first and last student on the page
-   const itemsPerPage = 9
    const startIndex = (page * itemsPerPage) - itemsPerPage
    const endIndex = (page * itemsPerPage)
     // select the element with a class of `student-list` and assign it to a variable
@@ -38,11 +39,21 @@ function showPage(list, page) {
 showPage(data, 1)
 
 
-/*
-Create the `addPagination` function
-This function will create and insert/append the elements needed for the pagination buttons
-*/
+// Create the `addPagination` function
+// This function will create and insert/append the elements needed for the pagination buttons
 
+function addPagination(list) {
+   // create a variable to calculate the number of pages needed
+   const numOfPages = Math.ceil(list.length/itemsPerPage)
+   // select the element with a class of `link-list` and assign it to a variable
+   const linkList = document.querySelector('.link-list')
+    // set the innerHTML property of the variable you just created to an empty string
+   linkList.innerHTML = ''
+
+
+}
+
+addPagination(data)
 
 
 // Call functions
