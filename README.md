@@ -1,5 +1,5 @@
 # Turn-The-Page
-Applying JavaScript fundamentals by working with data and objects, the DOM and writing pagination for a student list web pages.
+Applying JavaScript fundamentals by working with data and objects, the DOM and writing pagination for student profiles.
 
 ## Check it out
 https://dainyleen.github.io/pagination
