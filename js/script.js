@@ -64,6 +64,11 @@ function addPagination(list) {
       // give the first pagination button a class of "active"
       const firstButton = document.querySelector('button')
       firstButton.className = 'active'
+
+      // create an event listener on the `link-list` element
+      linkList.addEventListener('click', (e) => {
+
+      })
    }
 }
 
