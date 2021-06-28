@@ -3,3 +3,5 @@ Applying JavaScript fundamentals by working with data and objects, the DOM and w
 
 ## Check it out
 https://dainyleen.github.io/pagination
+
+
