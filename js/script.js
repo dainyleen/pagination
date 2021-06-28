@@ -36,6 +36,7 @@ function showPage(list, page) {
    }
 }
 
+// Call functions
 showPage(data, 1)
 
 
@@ -81,7 +82,8 @@ function addPagination(list) {
    }
 }
 
+// Call functions
 addPagination(data)
 
 
-// Call functions
+
