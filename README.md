@@ -4,6 +4,10 @@ Applying JavaScript fundamentals by working with data and objects, the DOM and w
 ## Check it out
 https://dainyleen.github.io/pagination
 
-## Tech Talk
+### Tech Talk
+1. Practiced writing pseudo code
+2. Practiced writing for loops and conditional statements
+3. Practiced creating event listeners to elements
+4. Practiced creating functions and calling each functions
 
 
