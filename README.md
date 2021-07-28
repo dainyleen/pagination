@@ -11,3 +11,5 @@ https://dainyleen.github.io/pagination
 4. Practiced creating functions and calling each functions
 
 
+*This project is from TeamTreehouse - Tech Degree curriculum
+
